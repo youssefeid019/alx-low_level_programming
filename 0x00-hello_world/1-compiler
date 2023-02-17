@@ -1,0 +1,2 @@
+#!/bin/bash
+CFILE="your_file_name.c"; gcc -c $CFILE -o ${CFILE%.c}.o
