@@ -1,4 +1,2 @@
 #!/bin/bash
-CFILE="file.c"
-cpp -P $CFILE -o c
-chmod +x c.sh
+CFILE="file1.c"; cpp -P $CFILE -o c
