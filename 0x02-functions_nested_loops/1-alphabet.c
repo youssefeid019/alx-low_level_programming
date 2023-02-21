@@ -5,7 +5,7 @@
  *
  * Description: Prints the English alphabet in lowercase, 
  * followed by a new line.
- *              Uses the _putchar function to print each character.
+ * Uses the _putchar function to print each character.
  */
 void print_alphabet(void)
 {
