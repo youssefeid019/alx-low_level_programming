@@ -1,10 +1,12 @@
 #include "main.h"
 
 /**
- * print_alphabet - Prints the alphabet in lowercase, followed by a new line
+ * print_alphabet - Prints the lowercase alphabet, followed by a new line
  *
- * Description: Prints the English alphabet in lowercase, followed by a new line.
- *              Uses the _putchar function to print each character.
+ * Description: Prints each lowercase letter of the English alphabet to the
+ * standard output, using the _putchar() function. The letters are printed in
+ * order, from 'a' to 'z', and are followed by a newline character to ensure
+ * that the output ends on a new line.
  */
 void print_alphabet(void)
 {
