@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints numbers from 1 to 100, replacing multiples of 3 with "Fizz",
- *        multiples of 5 with "Buzz", and multiples of both with "FizzBuzz"
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
@@ -19,7 +18,10 @@ printf("Fizz");
 else if (i % 5 == 0)
 printf("Buzz");
 else
-printf("%d ", i);
+printf("%d", i);
+
+if (i != 100)
+printf(" ");
 }
 
 printf("\n");
